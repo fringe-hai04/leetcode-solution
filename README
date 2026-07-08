@@ -1,0 +1,16 @@
+# LeetCode Java 刷题仓库
+## 📊 刷题统计
+已完成题目：1 道
+### 题目分类
+区间类：1 道
+
+## 📚 题目列表
+### 区间专题
+1. **1288. 删除被覆盖区间**
+   - 原题链接：https://leetcode.cn/problems/remove-covered-intervals/
+   - 核心考点：数组排序、区间遍历
+   - 文件：`RemoveCoveredIntervals.java`
+
+## 💡 仓库规范
+1. 每道题 Java 文件头部附带完整题目注释、思路、复杂度
+2. 后续题目会按专题划分，统一题号命名
