@@ -1,0 +1,26 @@
+/*
+LeetCode 3532 - 针对图的路径存在性查询 I
+题目链接：https://leetcode.cn/problems/path-existence-queries-i/
+题意：nums非递减，相邻两数差值≤maxDiff则连通；多次查询两点是否连通
+思路：前缀区间标记连通块，同一连通块area值相同，查询只需对比area[u]==area[v]
+时间复杂度 O(n + q)
+*/
+class Solution {
+    public boolean[] pathExistenceQueries(int n, int[] nums, int maxDiff, int[][] queries) {
+        int[] area = new int[n];
+        area[0] = 0;
+        for(int i = 1; i < n; i++){
+            if(nums[i] - nums[i-1] <= maxDiff){
+                area[i] = area[i-1];
+            }else{
+                area[i] = area[i-1] + 1;
+            }
+        }
+        boolean[] ans = new boolean[queries.length];
+        for(int i = 0; i < queries.length; i++){
+            int u = queries[i][0], v = queries[i][1];
+            ans[i] = area[u] == area[v];
+        }
+        return ans;
+    }
+}

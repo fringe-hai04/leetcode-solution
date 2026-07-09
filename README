@@ -1,16 +1,23 @@
 # LeetCode Java 刷题仓库
 ## 📊 刷题统计
-已完成题目：1 道
+已完成题目：2 道
 ### 题目分类
 区间类：1 道
+图/连通块类：1 道
 
 ## 📚 题目列表
 ### 区间专题
-1. **1288. 删除被覆盖区间**
+1. **1288 - 删除被覆盖区间**
    - 原题链接：https://leetcode.cn/problems/remove-covered-intervals/
    - 核心考点：数组排序、区间遍历
-   - 文件：`RemoveCoveredIntervals.java`
+   - 代码文件：`RemoveCoveredIntervals.java`
+
+### 图/连通块专题
+1. **3532 - 针对图的路径存在性查询 I**
+   - 原题链接：https://leetcode.cn/problems/path-existence-queries-i/
+   - 核心考点：连通块前缀划分、区间连通判断
+   - 代码文件：`PathExistenceQueries.java`
 
 ## 💡 仓库规范
-1. 每道题 Java 文件头部附带完整题目注释、思路、复杂度
-2. 后续题目会按专题划分，统一题号命名
+1. 每道 Java 文件头部附带题目、思路、复杂度注释
+2. 题目统一格式：`四位题号 - 题目中文名`，按专题分组
