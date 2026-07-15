@@ -1,3 +1,12 @@
+# LeetCode Java 刷题仓库
+## 📊 刷题统计
+已完成题目：4 道
+### 题目分类
+区间类：1 道
+图/连通块类：1 道
+数学公式类：1 道
+数字枚举类：1 道
+
 ## 📚 题目列表
 ### 区间专题
 1. **1288 - 删除被覆盖区间**
@@ -16,3 +25,14 @@
    - 原题链接：https://leetcode.cn/problems/gcd-of-odd-even-sums/
    - 核心考点：数学公式推导、最大公约数简化
    - 代码文件：`GcdOfOddEvenSums.java`
+
+### 数字枚举专题
+1. **1291 - 顺次数**
+   - 原题链接：https://leetcode.cn/problems/sequential-digits/
+   - 核心考点：数字枚举、顺次数生成、排序
+   - 代码文件：`SequentialDigits.java`
+
+## 💡 仓库规范
+1. 每道 Java 文件头部附带完整题目注释、思路、复杂度
+2. 题目统一格式：`四位题号 - 题目中文名`，按专题分组
+3. Git提交备注固定格式：`xxxx.题目完整名称`
